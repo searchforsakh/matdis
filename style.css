@@ -50,8 +50,8 @@ h1 {
 /* SVG */
 #vennSvg {
   display: flex;
-  width: 407px;
-  height: 300px;
+  width: 350px;
+  height: 320px;
   background: linear-gradient(180deg, #fff, #fbfbfb);
   border-radius: 8px;
   border: 1px solid #000000;
@@ -59,7 +59,7 @@ h1 {
 
 .form-box {
   flex: 1;
-  min-width: 220px;
+  min-width: 307px;
 }
 
 input[type="text"] {
