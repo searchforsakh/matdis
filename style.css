@@ -49,9 +49,9 @@ h1 {
 
 /* SVG */
 #vennSvg {
-  width: 320px;
+  width: 335px;
   height: 320px;
-  background: linear-gradient(180deg, #ff0000, #fbfbfb);
+  background: linear-gradient(180deg, #ffffff, #fbfbfb);
   border-radius: 8px;
   border: 1px solid #000000;
 }
