@@ -144,8 +144,7 @@ function refreshAll() {
   updatePromos(s);
   updateCombos(s);
 
-  listOutput.innerHTML =
-    "<li>Gunakan tombol region atau klik lingkaran untuk melihat anggota.</li>";
+  listOutput.innerHTML = "<li>Klik lingkaran untuk melihat anggota.</li>";
 
   visualHint(s);
 }
