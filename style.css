@@ -1,0 +1,168 @@
+:root {
+  --w: 640px;
+}
+
+body {
+  font-family: system-ui, Arial;
+  margin: 20px;
+  color: #111;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  max-width: var(--w);
+  width: 100%;
+}
+
+.left,
+.right {
+  background: #fff;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 6px 18px rgba(195, 4, 4, 0.04);
+}
+
+.left {
+  flex: 1 1 660px;
+}
+
+.right {
+  width: 320px;
+  flex: 0 0 320px;
+}
+
+.flex-top {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* SVG */
+#vennSvg {
+  width: 420px;
+  height: 320px;
+  background: linear-gradient(180deg, #fff, #fbfbfb);
+  border-radius: 8px;
+  border: 1px solid #000000;
+}
+
+.form-box {
+  flex: 1;
+  min-width: 220px;
+}
+
+input[type="text"] {
+  margin-top: 8px;
+  padding: 7px;
+  width: 99%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.checkbox-group {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #eb2525;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+button.secondary {
+  background: #10b981;
+}
+
+button.ghost {
+  background: transparent;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.small {
+  font-size: 13px;
+  padding: 6px 8px;
+}
+
+.stats {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.card {
+  background: #fafafa;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  min-width: 110px;
+  text-align: center;
+}
+
+.output-list {
+  max-height: 200px;
+  overflow: auto;
+  padding: 8px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.promo {
+  background: #fff3cd;
+  border: 1px solid #94824b;
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+.region-btns {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.region-btns button {
+  background: #efefef;
+  border: 1px solid #ccc;
+  color: #111;
+}
+
+.threshold-label {
+  font-size: 14px;
+}
+
+.threshold-label input {
+  width: 60px;
+  padding: 4px;
+  margin-left: 6px;
+}
+
+.divider {
+  margin: 16px 0;
+  border: 0;
+  border-top: 1px solid #f0f0f0;
+}
+
+.footer-note {
+  font-size: 13px;
+  color: #666;
+  margin-top: 12px;
+}
