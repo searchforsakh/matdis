@@ -50,7 +50,7 @@ h1 {
 /* SVG */
 #vennSvg {
   display: flex;
-  width: 350px;
+  width: 320px;
   height: 320px;
   background: linear-gradient(180deg, #fff, #fbfbfb);
   border-radius: 8px;
